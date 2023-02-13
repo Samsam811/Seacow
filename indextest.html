@@ -6,11 +6,116 @@
 	<link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./CSS/style.css">
 </head>
-<body style="background-image: url(https://static.wikia.nocookie.net/prison-school/images/b/b5/Site-background-light/revision/latest?cb=20210713141020);">
 	<!-- header element-->
 	<header>
 		<img src="img/gakutoinmate.png">
 		<h1>Yours truly Gakuto</h1>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+  
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+</style>
+</head>
+<body>
+
+<header>inmate search detail report</header>
+<p>Morokuzu Takehito</p>
+<div class="row">
+  <div class="column">
+    <table>
+      <tr>
+        <th>inmate description</th>
+      </tr>
+      <tr>
+        <td>sex:</td>
+        <td>offender</td>
+      </tr>
+      <tr>
+        <td>race:</td>
+        <td>ist</td>
+      </tr>
+      <tr>
+        <td>height:</td>
+        <td>8' 02"</td>
+      </tr>
+      <tr>
+      	<td>weight:</td>
+      	<td>202 lbs.</td>
+      </tr>
+      <tr>
+      	<td>age:</td>
+      	<td>16</td>
+      </tr>
+      <tr>
+      	<td>build:</td>
+      	<td>sleeper</td>
+      </tr>
+
+    </table>
+  </div>
+  <div class="column">
+    <table>
+      <tr>
+        <th>inmate offences</th>
+      </tr>
+      <tr>
+        <td>sexual harassment-1st degree</td>
+        <td>2yrs</td>
+      </tr>
+      <tr>
+        <td>sexual harassment-2nd degree</td>
+        <td>4yrs</td>
+      </tr>
+      <tr>
+        <td>sexual harassment-3rd degree</td>
+        <td>6yrs</td>
+      </tr>
+      <tr>
+        <td>sexual harassment-4th degree</td>
+        <td>8yrs</td>
+      </tr>
+      <tr>
+        <td>sexual harassment-5th degree</td>
+        <td>10yr</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
 	</header>
 
 	<!-- main element -->

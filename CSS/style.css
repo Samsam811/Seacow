@@ -6,24 +6,12 @@ body{
 }
 
 header{
-	background-color: #36393e;
-	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	text-transform: uppercase;
 }
 
 h1,h2{
 	font-family: 'Julee', cursive;
-}
 
-header h1{
-	color: white;
-	font-size: 50px;
-
-}
-
-header img{
-width: 300px;
 }
 
 main{
@@ -71,7 +59,8 @@ footer a:hover{
 }
 
 p.caption{
-	color: red;
+	color: grey;
 	font-style: italic;
+	font-size: 18px;
 	margin-top: 0;
 }
